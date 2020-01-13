@@ -2,4 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 $baseurl: "{{ site.baseurl }}";
+$red: #FC3F3F;
+$yellow: #FFC020;
+$black: #070A12;
+$grey: #3C414F;
 @import "minima-{{ site.minima.skin | default: 'classic' }}";
