@@ -5,7 +5,7 @@ layout: default
 {% include quote.html
   content="In 2019 we held the <b>first ever</b> Montgomery International Film Festival
   in beautiful <b>Bethesda,&nbsp;Maryland</b>.<br>
-  Here are some of the highlights from the event!"
+  Here are some of the highlights from the festival!"
 %}
 {% include summary_row.html
   image='../assets/img/hero.png'
@@ -21,14 +21,17 @@ layout: default
   content='Lorem ipsum dolor amet raw denim hexagon fam ramps lo-fi, 8-bit quinoa normcore keytar. Fashion axe activated charcoal venmo ramps banjo biodiesel. Cornhole cold-pressed flannel, chambray iPhone snackwave +1. PBR&B shabby chic +1 tattooed bushwick 8-bit, meditation leggings. Heirloom meditation bushwick semiotics raclette.'
   link='panelists-2019'
   link_text='See 2019 Panelists'
-  %}
+%}
 {% include summary_row.html
   image='../assets/img/hero.png'
   title='Gallery'
   content='Lorem ipsum dolor amet raw denim hexagon fam ramps lo-fi, 8-bit quinoa normcore keytar. Fashion axe activated charcoal venmo ramps banjo biodiesel. Cornhole cold-pressed flannel, chambray iPhone snackwave +1. PBR&B shabby chic +1 tattooed bushwick 8-bit, meditation leggings. Heirloom meditation bushwick semiotics raclette.'
 %}
+{% capture submissions_blurb %}
+Submit your film for consideration <a class='important' href='{{site.url}}/submission'>here</a>
+{% endcapture %}
 {% include banner.html
   title='Interested in screening at the 2020 Festival?'
-  subtitle="Submit your film for consideration <a href='/submission'>here</a>"
+  subtitle=submissions_blurb
 %}
 <!-- Link is broken for submission. TODO -->
