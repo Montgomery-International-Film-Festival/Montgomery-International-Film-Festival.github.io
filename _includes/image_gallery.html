@@ -5,19 +5,6 @@
     .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
     .image-gallery li a img {width: 100%; display: block;}
 </style> -->
-<style>
-.masonry { /* Masonry container */
-  column-count: 3;
-  column-gap: 1em;
-}
-
-.brick { /* Masonry bricks or child elements */
-  /* background-color: #eee; */
-  display: inline-block;
-  margin: 0 0 1em;
-  width: 100%;
-}
-</style>
 <!-- {% if file.path contains include.folder %}Hello{% endif %}
 World -->
 {% assign images = {{include.images}} | split: ", " %}
